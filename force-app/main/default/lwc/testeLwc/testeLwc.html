@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title='LWC Criar conta' icon-name="custom:custom13"> 
+        <div class="teste">
+            <lightning-input class="nome" placeholder="Digite o nome da conta" value={nomeConta} onchange={salvaNome} label="Nome da conta"></lightning-input>
+            <br/>
+            <lightning-button class="criar" label="Criar Conta" variant="brand" onclick={gravaNome}></lightning-button>
+        </div>
+    </lightning-card> 
+</template>
